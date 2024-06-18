@@ -1,0 +1,54 @@
+server:
+  port: 8088
+spring:
+  application:
+    security:
+      jwt:
+        secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+        expiration: 86400000 # a day
+        refresh-token:
+          expiration: 604800000 # 7 days
+
+  #Datasource and Postgres
+  datasource:
+    url: jdbc:postgresql://localhost:5432/event_booking
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  #Flyway configuration
+  flyway:
+    enabled: true
+    clean-disabled: false
+    validate-on-migrate: true
+    locations: classpath:db/migration
+
+  # Java mail properties
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: your-email@gmail.com
+    password: your-email-password
+    properties:
+      mail:
+        smtp:
+          trust: "*"
+        auth: true
+        starttls:
+          enabled: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetimeout: 5000
+
+  devtools:
+    restart:
+      enabled: true

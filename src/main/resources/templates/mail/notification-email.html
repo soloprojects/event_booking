@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Notification</title>
+    <style>
+        .email-container {
+            font-family: Arial, sans-serif;
+            color: #333333;
+        }
+        .header {
+            background-color: #f7f7f7;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #f7f7f7;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="email-container">
+    <div class="header">
+        <h1>Welcome to Our Event Platform</h1>
+    </div>
+    <div class="content">
+        <p>Dear participant,</p>
+        <p>We are excited to inform you about an upcoming event:</p>
+        <p><strong>Event Name:</strong> <span th:text="${eventName}"></span></p>
+        <p><strong>Event Date:</strong> <span th:text="${eventDate}"></span></p>
+        <p>We look forward to your participation!</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Event Platform. All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>

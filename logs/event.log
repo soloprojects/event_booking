@@ -1,0 +1,28 @@
+2024-06-18 16:34:54 [restartedMain] INFO  c.event.booking.BookingApplication - Starting BookingApplication using Java 17.0.5 with PID 49924 (C:\Users\Admin\Documents\Java\booking\target\classes started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:34:54 [restartedMain] INFO  c.event.booking.BookingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:35:17 [restartedMain] INFO  c.event.booking.BookingApplication - Started BookingApplication in 24.433 seconds (process running for 26.32)
+2024-06-18 16:38:13 [restartedMain] INFO  c.event.booking.BookingApplication - Starting BookingApplication using Java 17.0.5 with PID 6176 (C:\Users\Admin\Documents\Java\booking\target\classes started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:38:13 [restartedMain] INFO  c.event.booking.BookingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:38:33 [restartedMain] INFO  c.event.booking.BookingApplication - Started BookingApplication in 21.545 seconds (process running for 23.795)
+2024-06-18 16:40:27 [restartedMain] INFO  c.event.booking.BookingApplication - Starting BookingApplication using Java 17.0.5 with PID 732 (C:\Users\Admin\Documents\Java\booking\target\classes started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:40:27 [restartedMain] INFO  c.event.booking.BookingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:40:41 [restartedMain] INFO  c.event.booking.BookingApplication - Started BookingApplication in 15.44 seconds (process running for 17.236)
+2024-06-18 16:42:44 [restartedMain] INFO  c.event.booking.BookingApplication - Starting BookingApplication using Java 17.0.5 with PID 6768 (C:\Users\Admin\Documents\Java\booking\target\classes started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:42:44 [restartedMain] INFO  c.event.booking.BookingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:42:58 [restartedMain] INFO  c.event.booking.BookingApplication - Started BookingApplication in 14.619 seconds (process running for 16.196)
+2024-06-18 16:44:31 [main] INFO  c.e.booking.BookingApplicationTests - Starting BookingApplicationTests using Java 17.0.5 with PID 16492 (started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:44:31 [main] INFO  c.e.booking.BookingApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:45:10 [main] INFO  c.e.booking.BookingApplicationTests - Started BookingApplicationTests in 39.9 seconds (process running for 42.788)
+2024-06-18 16:45:16 [main] INFO  c.e.b.notification.EventNotification - Audit log: Notification sent for event - ID: 1, Name: Test Event, Date: 2024-06-19
+2024-06-18 16:45:16 [main] INFO  c.e.b.notification.EventNotification - Audit log: Notification sent for event - ID: 2, Name: New Event, Date: 2024-06-19
+2024-06-18 16:45:40 [restartedMain] INFO  c.event.booking.BookingApplication - Starting BookingApplication using Java 17.0.5 with PID 43444 (C:\Users\Admin\Documents\Java\booking\target\classes started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:45:40 [restartedMain] INFO  c.event.booking.BookingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:46:06 [restartedMain] INFO  c.event.booking.BookingApplication - Started BookingApplication in 26.969 seconds (process running for 29.372)
+2024-06-18 16:49:34 [restartedMain] INFO  c.event.booking.BookingApplication - Starting BookingApplication using Java 17.0.5 with PID 32456 (C:\Users\Admin\Documents\Java\booking\target\classes started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:49:34 [restartedMain] INFO  c.event.booking.BookingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:50:17 [restartedMain] INFO  c.event.booking.BookingApplication - Started BookingApplication in 44.257 seconds (process running for 51.354)
+2024-06-18 16:53:56 [main] INFO  c.e.booking.BookingApplicationTests - Starting BookingApplicationTests using Java 17.0.5 with PID 42536 (started by Admin in C:\Users\Admin\Documents\Java\booking)
+2024-06-18 16:53:56 [main] INFO  c.e.booking.BookingApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-06-18 16:54:29 [main] INFO  c.e.booking.BookingApplicationTests - Started BookingApplicationTests in 33.866 seconds (process running for 37.668)
+2024-06-18 16:54:36 [main] INFO  c.e.b.notification.EventNotification - Audit log: Notification sent for event - ID: 1, Name: Test Event, Date: 2024-06-19
+2024-06-18 16:54:36 [main] INFO  c.e.b.notification.EventNotification - Audit log: Notification sent for event - ID: 2, Name: New Event, Date: 2024-06-19
